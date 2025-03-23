@@ -2,7 +2,7 @@
   "name": "react-clock",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://GaryGdSpeed/github.io/React-JS-Clock",
+  "homepage": "https://GaryGdSpeed.github.io/React-JS-Clock/",
   "type": "module",
   "scripts": {
     "dev": "vite",
