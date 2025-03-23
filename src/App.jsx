@@ -13,10 +13,13 @@ export default function App() {
   });
 
   return (
-    <main id="the-clock">
-      <SecondsHand seconds={clockHands.seconds} />
-      <MinutesHand minutes={clockHands.minutes} seconds={clockHands.seconds} />
-      <HoursHand hours={clockHands.hours} minutes={clockHands.minutes} />
+    <>
+      <main id="the-clock">
+        <SecondsHand seconds={clockHands.seconds} />
+        <MinutesHand minutes={clockHands.minutes} seconds={clockHands.seconds} />
+        <HoursHand hours={clockHands.hours} minutes={clockHands.minutes} />
     </main>
+    <p>... Kevobizzi</p>
+    </>
   )
 }

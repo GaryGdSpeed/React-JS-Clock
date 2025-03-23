@@ -3,6 +3,7 @@
   width: 100%;
   background-color: inherit;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -44,6 +45,14 @@
   background-color: rgb(30, 24, 119);
   top: 30%;
   left: 48.5%;
+}
+
+p {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.2em;
 }
 
 @keyframes timer {
